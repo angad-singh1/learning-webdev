@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>
+            youtube search layout
+        </title>
+        <style>
+            p{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+            }
+            .thumbnail{
+                width: 200px;               
+                
+            }
+            .video-title{
+                font-size: 15px; 
+                margin-top: 0px;
+                font-weight: 500;
+                   
+            }
+            .thumbnail-row{                
+
+            }
+            .video-info{               
+                width: 220px;                
+            }
+            .video-creator,
+            .video-stats{
+                color: rgb(90, 90, 90);
+                font-size: 13px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+
+            }
+            .videopreview{
+            
+            }
+            .video-info-grid{
+                display: grid;
+                grid-template-columns: 200px 1fr;
+                column-gap: 6px;
+              
+            }
+            .video-preview-grid{
+                display : grid;
+                grid-template-columns: 1fr ;
+                row-gap: 8px;
+            }
+            
+
+        </style>
+
+    </head>
+    <body>
+<div class="video-preview-grid">   
+    <div class="videopreview">
+        <div class="video-info-grid">       
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        </div>
+        <div class="video-info">
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar pichai! </p>
+            <p class="video-creator">Marques Brownlee</p> 
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+        </div>
+    </div>
+    
+    <div class="videopreview">
+        <div class="video-info-grid">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        </div>
+        <div class="video-info">
+            <p class="video-title"> Try not to laugh Challenge #9 </p>
+            <p class="video-creator">Markiplier</p> 
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+            
+        </div>
+        </div>
+    </div>
+
+
+    <div class="videopreview">
+        <div class="video-info-grid">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+        </div>
+        <div class="video-info">
+            <p class="video-title"> Crazy TikToks Taken Moments Before DISASTER </p>
+            <p class="video-creator">SSSniperWolf</p> 
+            <p class="video-stats">12M views &#183; 1 year ago</p>
+            
+        </div>  
+    </div>
+    </div>
+</div>
+    </body>
+</hmtl>
